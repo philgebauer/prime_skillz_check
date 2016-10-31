@@ -15,3 +15,6 @@ $(document).ready(function() {
 		$('ul').children().children().remove(this);
 
 	});
+
+
+// Didnt quite finish  :(   
