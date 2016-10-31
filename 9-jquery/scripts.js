@@ -2,8 +2,8 @@
 	// to the section element
 
 $(document).ready(function() {
-	 	function appendDOM () {
-  	('.status').append('<p>' + Page Loaded + '</p>');
+
+  	('.status').append("<p>Test</p>");
 
 
 	// 2 - Change the text of the h1 element to something (anything!) else.
