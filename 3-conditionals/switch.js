@@ -18,7 +18,10 @@ switch (weekday) {
   case 'Thursday':
     console.log("Thursday, better...");
     break;
+  case 'Friday':
+    console.log('YES ITS FRIDAY');
+    break;
   default:
-    console.log("BEST");
+    console.log("This isn't a day.....");
 
 }
