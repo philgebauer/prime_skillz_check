@@ -6,14 +6,26 @@
 // Assign the values based on Prime's
 // address.
 
+var prime = {
+  city: 'Bloomington',
+  state: 'Minnesota',
+  zip: 55431
+}
+
 // 2 - Using dot notation, create a
 // new property for prime. This property
-// will be called address and will 
+// will be called address and will
 // take the value of Prime's street
 // address.
+
+address.prime = "9401 James Ave S #152";
 
 // 3 - Using dot notation, create a
 // new method for prime. This method
 // will console log out the complete
 // address of prime. Call the new
 // property/method print.
+
+fullAdress.prime = function () {
+  return this.address + this.city + this.state + this.zip;
+}
