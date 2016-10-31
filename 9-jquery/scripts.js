@@ -2,6 +2,7 @@
 	// to the section element
 
 $(document).ready(function() {
+	 	function appendDOM () {
   	('.status').append('<p>' + Page Loaded + '</p>');
 
 
@@ -12,9 +13,10 @@ $(document).ready(function() {
   // 3 - Get rid of (delete) the useless unordered list (ul) by first
   // selecting the h2 nested within its list item.
 
-		$('ul').children().children().remove(this);
+		$('ul').children().children().remove();
 
-	});
+	}
+});
 
 
-// Didnt quite finish  :(   
+// Didnt quite finish  :(
